@@ -21,3 +21,26 @@ D:\دراسة\2yıl\2donam\veritabani görsal\MyBook shop\MyBook shop\bin\Debug\
 D:\دراسة\2yıl\2donam\veritabani görsal\MyBook shop\MyBook shop\bin\Debug\net6.0-windows\System.Management.dll
 D:\دراسة\2yıl\2donam\veritabani görsal\MyBook shop\MyBook shop\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
 D:\دراسة\2yıl\2donam\veritabani görsal\MyBook shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.csproj.CopyComplete
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\bin\Debug\net6.0-windows\MyBook shop.exe
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\bin\Debug\net6.0-windows\MyBook shop.dll.config
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\bin\Debug\net6.0-windows\MyBook shop.deps.json
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\bin\Debug\net6.0-windows\MyBook shop.runtimeconfig.json
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\bin\Debug\net6.0-windows\MyBook shop.dll
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\bin\Debug\net6.0-windows\MyBook shop.pdb
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook_shop.PL.MyBook.resources
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook_shop.Properties.Resources.resources
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.AssemblyInfo.cs
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.csproj.CopyComplete
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.dll
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\refint\MyBook shop.dll
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.pdb
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\MyBook shop.genruntimeconfig.cache
+C:\Users\DELL\Desktop\MyBook-shop\MyBook shop\obj\Debug\net6.0-windows\ref\MyBook shop.dll

@@ -29,7 +29,24 @@ namespace MyBook_shop.PL
 
         private void guna2ImageButton1_Click_1(object sender, EventArgs e)
         {
+            Environment.Exit(0);
+        }
 
+        private void guna2ImageButton2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void guna2ImageButton3_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
         }
     }
 }

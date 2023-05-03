@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VbCY1wdTqGaO/5PEBeemcQuwgU4Fijuk9QeuDkB4DwZXkj1oVmvtfhAmShgeUEE+HrE2X3CrD1rVMLU4wB8krg==",
+  "dgSpecHash": "lCkGfm1/DxTlDSTrrECwk3eFjbUJCh7BLaxLkOps7rrDKWp010I3eC0kCPOo9fwznPhvpXqUhVbZahthkcn7tg==",
   "success": true,
-  "projectFilePath": "D:\\دراسة\\2yıl\\2donam\\veritabani görsal\\MyBook shop\\MyBook shop\\MyBook shop.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\MyBook-shop\\MyBook shop\\MyBook shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.4\\guna.ui2.winforms.2.0.4.4.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",

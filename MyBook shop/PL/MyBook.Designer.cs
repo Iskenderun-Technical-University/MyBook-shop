@@ -71,7 +71,7 @@
             // 
             // HOME
             // 
-            HOME.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            HOME.Anchor = AnchorStyles.Top;
             HOME.AutoSize = true;
             HOME.Font = new Font("Corbel", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             HOME.Location = new Point(318, 6);
@@ -130,6 +130,7 @@
             guna2ImageButton3.ShadowDecoration.CustomizableEdges = customizableEdges3;
             guna2ImageButton3.Size = new Size(31, 31);
             guna2ImageButton3.TabIndex = 2;
+            guna2ImageButton3.Click += guna2ImageButton3_Click;
             // 
             // guna2ImageButton2
             // 
@@ -147,6 +148,7 @@
             guna2ImageButton2.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2ImageButton2.Size = new Size(37, 38);
             guna2ImageButton2.TabIndex = 1;
+            guna2ImageButton2.Click += guna2ImageButton2_Click;
             // 
             // guna2ImageButton1
             // 
@@ -196,6 +198,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 6, 4, 6);
             Name = "MyBook";
+            StartPosition = FormStartPosition.CenterScreen;
             P_TB.ResumeLayout(false);
             P_TB.PerformLayout();
             ResumeLayout(false);

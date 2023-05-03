@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\دراسة\\2yıl\\2donam\\veritabani görsal\\MyBook shop\\MyBook shop\\MyBook shop.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\MyBook-shop\\MyBook shop\\MyBook shop.csproj": {}
   },
   "projects": {
-    "D:\\دراسة\\2yıl\\2donam\\veritabani görsal\\MyBook shop\\MyBook shop\\MyBook shop.csproj": {
+    "C:\\Users\\DELL\\Desktop\\MyBook-shop\\MyBook shop\\MyBook shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\دراسة\\2yıl\\2donam\\veritabani görsal\\MyBook shop\\MyBook shop\\MyBook shop.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\MyBook-shop\\MyBook shop\\MyBook shop.csproj",
         "projectName": "MyBook shop",
-        "projectPath": "D:\\دراسة\\2yıl\\2donam\\veritabani görsal\\MyBook shop\\MyBook shop\\MyBook shop.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\MyBook-shop\\MyBook shop\\MyBook shop.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\دراسة\\2yıl\\2donam\\veritabani görsal\\MyBook shop\\MyBook shop\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\MyBook-shop\\MyBook shop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
