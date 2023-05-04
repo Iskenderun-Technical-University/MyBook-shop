@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace MyBook_shop.PL
+﻿namespace MyBook_shop.PL
 {
     public partial class MyBook : Form
     {
@@ -63,24 +53,15 @@ namespace MyBook_shop.PL
         {
             if (P_MB.Size.Width == 240)
             {
-                P_MB.Width = 50;
-                button1.RightToLeft = RightToLeft.Yes;
-                button2.RightToLeft = RightToLeft.Yes;
-                button3.RightToLeft = RightToLeft.Yes;
-                button4.RightToLeft = RightToLeft.Yes;
-                button5.RightToLeft = RightToLeft.Yes;
-                button6.RightToLeft = RightToLeft.Yes;
+                P_MB.Width = 60;
+
 
             }
             else
             {
                 P_MB.Width = 240;
-                button1.RightToLeft = RightToLeft.No;
-                button2.RightToLeft = RightToLeft.No;
-                button3.RightToLeft = RightToLeft.No;
-                button4.RightToLeft = RightToLeft.No;
-                button5.RightToLeft = RightToLeft.No;
-                button6.RightToLeft = RightToLeft.No;
+
+
             }
         }
 
@@ -90,6 +71,50 @@ namespace MyBook_shop.PL
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ShadowPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
