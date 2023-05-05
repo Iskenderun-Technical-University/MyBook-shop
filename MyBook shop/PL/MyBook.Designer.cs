@@ -34,8 +34,19 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             P_MB = new Panel();
             button7 = new Button();
             button6 = new Button();
@@ -88,7 +99,12 @@
             button9 = new Button();
             button8 = new Button();
             P_MAIN = new Panel();
+            dataGridView1 = new DataGridView();
             panel4 = new Panel();
+            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             panel3 = new Panel();
             guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -113,6 +129,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel2.SuspendLayout();
             P_MAIN.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            panel4.SuspendLayout();
             panel3.SuspendLayout();
             P_container.SuspendLayout();
             SuspendLayout();
@@ -295,7 +313,7 @@
             HOME.Font = new Font("Corbel", 18F, FontStyle.Regular, GraphicsUnit.Point);
             HOME.Location = new Point(404, 7);
             HOME.Name = "HOME";
-            HOME.Size = new Size(101, 37);
+            HOME.Size = new Size(80, 29);
             HOME.TabIndex = 0;
             HOME.Text = "HOME";
             // 
@@ -450,7 +468,7 @@
             label12.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
             label12.Location = new Point(413, 18);
             label12.Name = "label12";
-            label12.Size = new Size(53, 41);
+            label12.Size = new Size(42, 33);
             label12.TabIndex = 3;
             label12.Text = "45";
             // 
@@ -470,7 +488,7 @@
             label11.Font = new Font("Corbel", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             label11.Location = new Point(99, 18);
             label11.Name = "label11";
-            label11.Size = new Size(251, 41);
+            label11.Size = new Size(197, 33);
             label11.TabIndex = 1;
             label11.Text = "Number of users";
             // 
@@ -499,7 +517,7 @@
             label10.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
             label10.Location = new Point(413, 18);
             label10.Name = "label10";
-            label10.Size = new Size(53, 41);
+            label10.Size = new Size(42, 33);
             label10.TabIndex = 3;
             label10.Text = "45";
             // 
@@ -519,7 +537,7 @@
             label9.Font = new Font("Corbel", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             label9.Location = new Point(99, 18);
             label9.Name = "label9";
-            label9.Size = new Size(324, 41);
+            label9.Size = new Size(253, 33);
             label9.TabIndex = 1;
             label9.Text = "Number of categories";
             // 
@@ -548,7 +566,7 @@
             label8.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
             label8.Location = new Point(413, 18);
             label8.Name = "label8";
-            label8.Size = new Size(53, 41);
+            label8.Size = new Size(42, 33);
             label8.TabIndex = 3;
             label8.Text = "45";
             // 
@@ -568,7 +586,7 @@
             label7.Font = new Font("Corbel", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             label7.Location = new Point(99, 18);
             label7.Name = "label7";
-            label7.Size = new Size(321, 41);
+            label7.Size = new Size(252, 33);
             label7.TabIndex = 1;
             label7.Text = "Number of borrowing";
             // 
@@ -597,7 +615,7 @@
             label5.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
             label5.Location = new Point(413, 18);
             label5.Name = "label5";
-            label5.Size = new Size(53, 41);
+            label5.Size = new Size(42, 33);
             label5.TabIndex = 3;
             label5.Text = "45";
             // 
@@ -617,7 +635,7 @@
             label6.Font = new Font("Corbel", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             label6.Location = new Point(99, 18);
             label6.Name = "label6";
-            label6.Size = new Size(247, 41);
+            label6.Size = new Size(193, 33);
             label6.TabIndex = 1;
             label6.Text = "Number of sales";
             // 
@@ -646,7 +664,7 @@
             label3.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(413, 18);
             label3.Name = "label3";
-            label3.Size = new Size(53, 41);
+            label3.Size = new Size(42, 33);
             label3.TabIndex = 3;
             label3.Text = "45";
             // 
@@ -666,7 +684,7 @@
             label4.Font = new Font("Corbel", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             label4.Location = new Point(99, 18);
             label4.Name = "label4";
-            label4.Size = new Size(300, 41);
+            label4.Size = new Size(234, 33);
             label4.TabIndex = 1;
             label4.Text = "Number of students";
             // 
@@ -695,7 +713,7 @@
             label2.Font = new Font("Corbel", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(413, 14);
             label2.Name = "label2";
-            label2.Size = new Size(53, 41);
+            label2.Size = new Size(42, 33);
             label2.TabIndex = 3;
             label2.Text = "45";
             // 
@@ -715,7 +733,7 @@
             label1.Font = new Font("Corbel", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(99, 18);
             label1.Name = "label1";
-            label1.Size = new Size(262, 41);
+            label1.Size = new Size(205, 33);
             label1.TabIndex = 1;
             label1.Text = "Number of books";
             // 
@@ -726,7 +744,7 @@
             label18.Font = new Font("Corbel", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
             label18.Location = new Point(6, 21);
             label18.Name = "label18";
-            label18.Size = new Size(341, 45);
+            label18.Size = new Size(264, 36);
             label18.TabIndex = 9;
             label18.Text = "THE INFORMATION:";
             label18.Click += label18_Click;
@@ -842,6 +860,7 @@
             // 
             // P_MAIN
             // 
+            P_MAIN.Controls.Add(dataGridView1);
             P_MAIN.Controls.Add(panel4);
             P_MAIN.Controls.Add(panel3);
             P_MAIN.Dock = DockStyle.Fill;
@@ -850,13 +869,137 @@
             P_MAIN.Size = new Size(903, 792);
             P_MAIN.TabIndex = 0;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.BackgroundColor = SystemColors.ButtonFace;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Corbel", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.RosyBrown;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = SystemColors.Window;
+            dataGridViewCellStyle2.Font = new Font("Corbel", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = Color.RosyBrown;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridView1.Dock = DockStyle.Fill;
+            dataGridView1.GridColor = Color.DimGray;
+            dataGridView1.Location = new Point(0, 80);
+            dataGridView1.Name = "dataGridView1";
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = SystemColors.Control;
+            dataGridViewCellStyle3.Font = new Font("Corbel", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = Color.RosyBrown;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
+            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.RowTemplate.Height = 35;
+            dataGridView1.Size = new Size(903, 615);
+            dataGridView1.TabIndex = 2;
+            // 
             // panel4
             // 
+            panel4.Controls.Add(guna2Button4);
+            panel4.Controls.Add(guna2Button3);
+            panel4.Controls.Add(guna2Button2);
+            panel4.Controls.Add(guna2Button1);
             panel4.Dock = DockStyle.Bottom;
-            panel4.Location = new Point(0, 667);
+            panel4.Location = new Point(0, 695);
             panel4.Name = "panel4";
-            panel4.Size = new Size(903, 125);
+            panel4.Size = new Size(903, 97);
             panel4.TabIndex = 1;
+            // 
+            // guna2Button4
+            // 
+            guna2Button4.Anchor = AnchorStyles.Bottom;
+            guna2Button4.CustomBorderColor = Color.FromArgb(125, 90, 80);
+            guna2Button4.CustomBorderThickness = new Padding(2);
+            guna2Button4.CustomizableEdges = customizableEdges7;
+            guna2Button4.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button4.FillColor = Color.FromArgb(125, 90, 80);
+            guna2Button4.Font = new Font("Corbel", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2Button4.ForeColor = Color.White;
+            guna2Button4.Location = new Point(636, 16);
+            guna2Button4.Name = "guna2Button4";
+            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Button4.Size = new Size(148, 59);
+            guna2Button4.TabIndex = 3;
+            guna2Button4.Text = "Details";
+            // 
+            // guna2Button3
+            // 
+            guna2Button3.Anchor = AnchorStyles.Bottom;
+            guna2Button3.CustomBorderColor = Color.FromArgb(125, 90, 80);
+            guna2Button3.CustomBorderThickness = new Padding(2);
+            guna2Button3.CustomizableEdges = customizableEdges9;
+            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button3.FillColor = Color.FromArgb(125, 90, 80);
+            guna2Button3.Font = new Font("Corbel", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2Button3.ForeColor = Color.White;
+            guna2Button3.Location = new Point(460, 16);
+            guna2Button3.Name = "guna2Button3";
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            guna2Button3.Size = new Size(148, 59);
+            guna2Button3.TabIndex = 2;
+            guna2Button3.Text = "Delete";
+            // 
+            // guna2Button2
+            // 
+            guna2Button2.Anchor = AnchorStyles.Bottom;
+            guna2Button2.CustomBorderColor = Color.FromArgb(125, 90, 80);
+            guna2Button2.CustomBorderThickness = new Padding(2);
+            guna2Button2.CustomizableEdges = customizableEdges11;
+            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button2.FillColor = Color.FromArgb(125, 90, 80);
+            guna2Button2.Font = new Font("Corbel", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2Button2.ForeColor = Color.White;
+            guna2Button2.Location = new Point(284, 16);
+            guna2Button2.Name = "guna2Button2";
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2Button2.Size = new Size(148, 59);
+            guna2Button2.TabIndex = 1;
+            guna2Button2.Text = "Amendment";
+            // 
+            // guna2Button1
+            // 
+            guna2Button1.Anchor = AnchorStyles.Bottom;
+            guna2Button1.CustomBorderColor = Color.FromArgb(125, 90, 80);
+            guna2Button1.CustomBorderThickness = new Padding(2);
+            guna2Button1.CustomizableEdges = customizableEdges13;
+            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button1.FillColor = Color.FromArgb(125, 90, 80);
+            guna2Button1.Font = new Font("Corbel", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2Button1.ForeColor = Color.White;
+            guna2Button1.Location = new Point(105, 16);
+            guna2Button1.Name = "guna2Button1";
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            guna2Button1.Size = new Size(148, 59);
+            guna2Button1.TabIndex = 0;
+            guna2Button1.Text = "Add";
             // 
             // panel3
             // 
@@ -885,7 +1028,7 @@
             guna2TextBox1.BorderColor = Color.FromArgb(64, 0, 0);
             guna2TextBox1.BorderThickness = 0;
             guna2TextBox1.CharacterCasing = CharacterCasing.Lower;
-            guna2TextBox1.CustomizableEdges = customizableEdges7;
+            guna2TextBox1.CustomizableEdges = customizableEdges15;
             guna2TextBox1.DefaultText = "search here";
             guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -902,7 +1045,7 @@
             guna2TextBox1.PasswordChar = '\0';
             guna2TextBox1.PlaceholderText = "";
             guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges16;
             guna2TextBox1.Size = new Size(368, 49);
             guna2TextBox1.TabIndex = 0;
             guna2TextBox1.TextOffset = new Point(10, 0);
@@ -919,7 +1062,7 @@
             // 
             // MyBook
             // 
-            AutoScaleDimensions = new SizeF(12F, 40F);
+            AutoScaleDimensions = new SizeF(10F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1143, 845);
             Controls.Add(P_container);
@@ -961,6 +1104,8 @@
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             P_MAIN.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            panel4.ResumeLayout(false);
             panel3.ResumeLayout(false);
             P_container.ResumeLayout(false);
             ResumeLayout(false);
@@ -1025,5 +1170,10 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Panel P_container;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
+        private DataGridView dataGridView1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
